@@ -1,9 +1,12 @@
 {
   "name": "as-excellent",
+  "homepage": "https://JatinGautam13.github.io/Asexcellent-services",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -16,6 +19,7 @@
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",
     "express": "^4.21.2",
+    "gh-pages": "^6.3.0",
     "lucide-react": "^0.465.0",
     "react": "^18.3.1",
     "react-confirm-alert": "^3.0.6",
