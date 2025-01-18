@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://asexcellent-services-backend.onrender.com',
+        target: 'http://localhost:5000',
         changeOrigin: true,
         // rewrite: (path) => path.replace(/^\/api/, ''), // Only if necessary
       },

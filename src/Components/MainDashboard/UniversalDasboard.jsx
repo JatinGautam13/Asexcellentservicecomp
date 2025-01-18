@@ -6,7 +6,7 @@ import Home from "../Dashboard.jsx/Home"
 import ServicePage from "../Dashboard.jsx/ServicePage";
 import BookingPage from "../Dashboard.jsx/BookingPage";
 import AboutPage from "../Dashboard.jsx/AboutPage";
-import ReviewPage from "../Dashboard.jsx/ReviewPage";
+import ReviewPage from "../Dashboard.jsx/Reviewpage"
 import HelpPage from "../Dashboard.jsx/HelpPage";
 import TermsPage from "../Dashboard.jsx/TermsPage";
 import NotFoundPage from "../Dashboard.jsx/PageNotFound"; // 404 page
